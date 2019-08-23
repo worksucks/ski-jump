@@ -1,4 +1,10 @@
 "scripts": {
-  "test": "mocha index.test.js",
-  "test-w": "mocha index.test.js"
+  "test": {
+    "mocha Distance.test.js",
+    "mocha Style.test.js",
+    "mocha Total.test.js"
+  "test-w": {
+    "mocha Distance.test.js",
+    "mocha Style.test.js",
+    "mocha Total.test.js"
 }
